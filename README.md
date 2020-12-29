@@ -1,6 +1,5 @@
 # spy-bot
 
-## Trading bot for funsies
 
 ### TradingView message format
 
