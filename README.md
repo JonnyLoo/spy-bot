@@ -20,9 +20,6 @@
 ### Deploy
 
 ```
-conda activate spy-bot
-cd .\Desktop\spy-bot
-atom .
 chalice deploy
 ```
 
@@ -30,6 +27,14 @@ chalice deploy
 
 ```
 chalice local
+```
+
+### Make changes
+
+```
+conda activate spy-bot
+cd .\Desktop\spy-bot
+atom .
 ```
 
 ### Add changes to git
