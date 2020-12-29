@@ -20,17 +20,17 @@ def buy():
 
     data = {
         'symbol': webhook_message['ticker'],
-        'qty': 2,
+        'qty': 10,
         'side': 'buy',
         'type': 'limit',
         'limit_price': webhook_message['close'],
         'time_in_force': 'gtc',
         'order_class': 'bracket',
         'take_profit': {
-            'limit_price': webhook_message['close'] * 1.08
+            'limit_price': webhook_message['close'] * 1.5
         },
         'stop_loss': {
-            'stop_price': webhook_message['close'] * 0.94,
+            'stop_price': webhook_message['close'] * 0.85,
         }
     }
 
